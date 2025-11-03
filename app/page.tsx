@@ -213,11 +213,11 @@ export default function Home() {
   <div className="flex justify-between items-center text-gray-200">
     <ul className="flex flex-col space-x-8">
       <li className="flex items-center space-x-3 mb-2">
-        <a href="https://drive.google.com/file/d/1JB68ncFN1p9hvBRH9hvsKpap2r97D5Ra/view?usp=drive_link" className="hover:underline">
+        Certification: <a href="https://drive.google.com/file/d/1JB68ncFN1p9hvBRH9hvsKpap2r97D5Ra/view?usp=drive_link" className="hover:underline">
           Namste React
         </a>
       </li>
-      <li className="flex items-center space-x-3">
+     Publiation: <li className="flex items-center space-x-3">
         Dipali M. Balas, Shardul J. Agravat Video Summarization using CNN and Clustering Algorithm Journal of Applied Science and Computations - 2018.
       </li>
       
