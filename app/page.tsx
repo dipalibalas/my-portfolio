@@ -1,22 +1,72 @@
-import { EnvelopeIcon, PhoneIcon, LocationMarkerIcon } from '@heroicons/react/outline';
+import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center p-6">
       {/* Profile Section */}
-      <section className="bg-gray-900 rounded-xl shadow-xl p-8 w-full flex flex-col items-center mb-8 transition">
+      {/* <section className="bg-gray-900 rounded-xl shadow-xl p-8 w-full flex flex-col items-center mb-8 transition">
         <img
           src="/profilepic.jpeg"
           alt="Profile"
           className="rounded-full w-32 h-32 border-4 border-slate-700 mb-4"
         />
         <h1 className="text-3xl font-bold mb-2">DIPALI BALAS</h1>
-        <p className="text-lg text-gray-300 text-center mb-2">
+        <p className="text-medium text-gray-300 text-center mb-2">
           Hello,
-          I am a passionate MERN Stack Developer skilled in building scalable, high-performance web applications using MongoDB, ExpressJS, ReactJS, and NodeJS.  
-    Experienced with modern frontend frameworks and backend APIs, I deliver seamless user experiences and robust server-side logic with clean, maintainable code.  
-    Constantly learning and adopting new technologies to build full-stack solutions that drive business success.
+          I’m Dipali, a MERN Stack Developer with 3.5+ years of experience crafting fast, clean, and reliable web applications. I build full-stack solutions using MongoDB, ExpressJS, ReactJS, and NodeJS, blending smooth UI experiences with strong backend logic. I love turning ideas into functional products that scale and perform in the real world.
         </p>
-      </section>
+      </section> */}
+      <section className="bg-gray-900 rounded-xl shadow-xl p-8 w-full  mx-auto flex flex-col items-center mb-8 transition">
+      <img
+        src="/profilepic.jpeg"
+        alt="Profile"
+        className="rounded-full w-32 h-32 border-4 border-slate-700 mb-4"
+      />
+      <h1 className="text-3xl font-bold mb-2 text-white">DIPALI BALAS</h1>
+      <p className="text-medium text-gray-300 text-center mb-6 max-w-full">
+        Hello,
+        I’m Dipali, a MERN Stack Developer with 3.5+ years of experience crafting fast,
+        clean, and reliable web applications. I build full-stack solutions using MongoDB,
+        ExpressJS, ReactJS, and NodeJS, blending smooth UI experiences with strong backend logic.
+        I love turning ideas into functional products that scale and perform in the real world.
+      </p>
+
+      {/* Contact Info */}
+      <ul className="flex justify-center space-x-10 text-gray-300">
+        <li className="flex items-center space-x-2 hover:text-blue-400 transition">
+           <FiMail className="w-6 h-6 text-blue-400" />
+          <a href="mailto:dipalimbalas@gmail.com" className="hover:underline">
+            dipalimbalas@gmail.com
+          </a>
+        </li>
+        <li className="flex items-center space-x-2 hover:text-blue-400 transition">
+          <FiMapPin  className="w-6 h-6 text-blue-400"  />
+          <span>Ahmedabad, India</span>
+        </li>
+        <li className="flex items-center space-x-2 hover:text-blue-400 transition">
+          <FaLinkedin  className="w-6 h-6 text-blue-400"  />
+          <a
+            href="https://www.linkedin.com/in/dipali-balas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            dipalibalas
+          </a>
+        </li>
+        <li className="flex items-center space-x-2 hover:text-blue-400 transition">
+          <FaGithub  className="w-6 h-6 text-blue-400"  />
+          <a
+            href="https://github.com/dipalibalas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            dipalibalas
+          </a>
+        </li>
+      </ul>
+    </section>
 
 
 {/* Skills Section */}
@@ -40,10 +90,6 @@ export default function Home() {
     </li>
   </ul>
 </section>
-
-
-
-
 
       {/* Experience Section */}
       <section className="bg-gray-900 rounded-xl shadow-lg p-6 w-full mb-6">
@@ -161,61 +207,47 @@ export default function Home() {
           </li>
         </ul>
       </section>
- <section className="bg-gray-900 rounded-xl shadow-lg p-6 w-full max-w-lg mb-6 text-white">
-      <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-      <ul className="space-y-4">
-        <li className="flex items-center space-x-3">
-          <EnvelopeIcon className="w-6 h-6 text-blue-400" />
-          <a href="mailto:your.email@example.com" className="hover:underline">
-            your.email@example.com
-          </a>
-        </li>
-        <li className="flex items-center space-x-3">
-          <PhoneIcon className="w-6 h-6 text-blue-400" />
-          <a href="tel:+1234567890" className="hover:underline">
-            +1 (234) 567-890
-          </a>
-        </li>
-        <li className="flex items-center space-x-3">
-          <LocationMarkerIcon className="w-6 h-6 text-blue-400" />
-          <span>City, Country</span>
-        </li>
-        {/* Add more contact methods or social icons as needed */}
-      </ul>
-    </section>
-      {/* Contact Section */}
-      <section className="bg-gray-900 rounded-xl shadow-lg p-6 w-full mb-6">
-        <h2 className="text-2xl font-semibold text-pink-300 mb-3">Contact</h2>
-        <div className="flex gap-4 text-gray-200">
-          <div>
-            <span className="font-medium text-white">Email: </span>
-            <span className="text-blue-300">dipalimbalas@gmail.com</span>
-          </div>
-          <div>
-            <span className="font-medium text-white">LinkedIn: </span>
-            <a
-              href="https://www.linkedin.com/in/dipali-balas/"
-              className="text-blue-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedin.com/in/dipali-balas/
-            </a>
-          </div>
-          <div>
-            <span className="font-medium text-white">GitHub: </span>
-            <a
-              href="https://github.com/dipalibalas"
-              className="text-blue-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              github.com/dipalibalas
-            </a>
-          </div>
-        </div>
-      </section>
-
+    
+    {/* Contact Section */}
+    {/* <section className="bg-gray-900 rounded-xl shadow-lg p-6 w-full mb-6">
+  <h2 className="text-2xl font-semibold text-pink-300 mb-3">Contact</h2>
+  <div className="flex justify-between items-center text-gray-200">
+    <ul className="flex flex-row space-x-8">
+      <li className="flex items-center space-x-3">
+        <FiMail className="w-6 h-6 text-blue-400" />
+        <a href="mailto:dipalimbalas@gmail.com" className="hover:underline">
+          dipalimbalas@gmail.com
+        </a>
+      </li>
+      <li className="flex items-center space-x-3">
+        <FiMapPin className="w-6 h-6 text-blue-400" />
+        <span>Ahmedabad, India</span>
+      </li>
+      <li className="flex items-center space-x-3">
+        <FaLinkedin className="w-6 h-6 text-blue-400" />
+        <a
+          href="https://www.linkedin.com/in/dipali-balas/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          dipalibalas
+        </a>
+      </li>
+      <li className="flex items-center space-x-3">
+        <FaGithub className="w-6 h-6 text-blue-400" />
+        <a
+          href="https://github.com/dipalibalas"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
+          dipalibalas
+        </a>
+      </li>
+    </ul>
+  </div>
+</section> */}
       {/* Footer */}
       <footer className="mt-8 text-sm text-gray-500">
         Made with React & TailwindCSS • © {new Date().getFullYear()} DIPALI BALAS
