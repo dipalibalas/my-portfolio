@@ -103,7 +103,7 @@ export default function Home() {
        
             <div className="text-gray-200">• Developed scalable and responsive enterprise web portals using the MERN stack, implementing reusable components, role-based access, and optimized performance for smooth data workflows.</div>
             <div className="text-gray-200">•	Designed and integrated backend APIs using Node.js and Express.js, supporting features like file uploads, automated email notifications, and department-specific modules for seamless data exchange.</div>
-          <div className="text-gray-200">•	Led a team of 3–4 developers, mentoring juniors, conducting code reviews, and ensuring timely delivery of high-quality projects.</div> 
+          <div className="text-gray-200">•	Led a team of 3-4 developers, mentoring juniors, conducting code reviews, and ensuring timely delivery of high-quality projects.</div> 
           </li>
           <li className="mb-4">
               <div className="flex flex-row justify-between">
