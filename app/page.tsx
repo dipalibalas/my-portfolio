@@ -51,7 +51,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="hover:underline"
           >
-            dipalibalas
+            dipali-balas
           </a>
         </li>
         <li className="flex items-center space-x-2 hover:text-blue-400 transition">
@@ -203,7 +203,7 @@ export default function Home() {
           </li>
           <li>
             <div className="font-medium text-white">BE - Computer Engineering</div>
-            <div className="text-sm text-gray-400">Vyavasayi Vidya Pratishthan Engineering College - 2026</div>
+            <div className="text-sm text-gray-400">Vyavasayi Vidya Pratishthan Engineering College - 2016</div>
           </li>
         </ul>
       </section>
